@@ -25,6 +25,8 @@ for (let i = 0; i < partecipants.length; i++) {
     if (userName === partecipant) {
         console.log('Benvenuto al party');
         access = true
+
+        break
     }
     
 }
