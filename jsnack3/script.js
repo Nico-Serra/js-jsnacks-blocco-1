@@ -9,7 +9,7 @@ Il programma stampa la somma di tutti i numeri inseriti.
 //     let element =Number(prompt('Inserisci un numero'))
 //     console.log(element);
 
-//     let som = element + element
+//     let sum = element + element
 //     console.log(som);
 // }
 
@@ -17,8 +17,8 @@ let i = 0
 while (i < 10) {
     let element =Number(prompt('Inserisci un numero'))
     console.log(element);
-
-    let som = element + element
-    console.log(som);
+    
+    let sum = 0 + element
+    console.log(sum);
     i++
 }
